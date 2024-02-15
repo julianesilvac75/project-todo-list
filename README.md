@@ -1,33 +1,32 @@
-# Project To Do List - Trybe, Turma 16-B
+# Project To Do List - Trybe, Class 16-B
 
-O objetivo do projeto foi implementar uma Lista de Tarefas na qual os dados salvos pelo usuário ficassem salvos no Local Storage.
+The project aimed to implement a To-Do List where user-entered data is saved in Local Storage.
 
--   Repositório da proposta do projeto:  [Clique](https://github.com/tryber/sd-016-b-project-todo-list)
--   Página do projeto:  [Clique](https://project-todo-list-julianesilvac75.vercel.app/)
+-   Live page:  [click here](https://project-todo-list-julianesilvac75.vercel.app/)
 
-## Tecnologias utilizadas
+## Technologies Used
 - HTML
 - CSS
 - JavaScript
 
-## Requisitos
-- Adicionar à lista o título "Minha Lista de Tarefas" em uma tag header
-- Adicionar abaixo do título um pequeno e discreto parágrafo com id="funcionamento" e com texto "Clique duas vezes em um item para marcá-lo como completo"
-- Adicione um input com o id="texto-tarefa" onde a pessoa usuária poderá digitar o nome do item que deseja adicionar à lista
--  Adicione uma lista ordenada de tarefas com o id="lista-tarefas"
-- Adicione um botão com id="criar-tarefa" e, ao clicar nesse botão, um novo item deverá ser criado ao final da lista e o texto do input deve ser limpo
-- Ordene os itens da lista de tarefas por ordem de criação
-- Clicar em um item da lista deve alterar a cor de fundo do item para cinza rgb(128,128,128)
-- Não deve ser possível selecionar mais de um elemento da lista ao mesmo tempo
-- Clicar duas vezes em um item, faz com que ele seja riscado, indicando que foi completo. Deve ser possível desfazer essa ação clicando novamente duas vezes no item
-- Adicione um botão com id="apaga-tudo" que quando clicado deve apagar todos os itens da lista
-- Adicione um botão com id="remover-finalizados" que quando clicado remove  **somente**  os elementos finalizados da sua lista
-- Adicione um botão com id="salvar-tarefas" que salve o conteúdo da lista. Se você fechar e reabrir a página, a lista deve continuar no estado em que estava
-- Adicione dois botões, um com id="mover-cima" e outro com id="mover-baixo", que permitam mover o item selecionado para cima ou para baixo na lista de tarefas
-- Adicione um botão com id="remover-selecionado" que, quando clicado, remove o item selecionado
+## Requirements
+- [x] Add the title "Minha Lista de Tarefas" to the list in a header tag.
+- [x] Below the title, add a small and discreet paragraph with id="funcionamento" and text "Clique duas vezes em um item para marcá-lo como completo"
+- [x] Add an input with id="texto-tarefa" where the user can enter the name of the item to add to the list
+- [x] Add an ordered list of tasks with id="lista-tarefas"
+- [x] Add a button with id="criar-tarefa" and clicking it should create a new item at the end of the list, clearing the input text.
+- [x] Order the items in the task list by the order of creation.
+- [x] Clicking on an item in the list should change the background color to gray rgb(128,128,128).
+- [x] It should not be possible to select more than one item from the list at the same time.
+- [x] Double-clicking on an item should strike it out, indicating it is complete. It should be possible to undo this action by double-clicking on the item again.
+- [x] Add a button with id="apaga-tudo" that, when clicked, deletes all items from the list.
+- [x] Add a button with id="remover-finalizados" that, when clicked, removes **only** the completed elements from your list.
+- [x] Add a button with id="salvar-tarefas" that saves the content of the list. If you close and reopen the page, the list should remain in the state it was in.
+- [x] Add two buttons, one with id="mover-cima" and the other with id="mover-baixo," that allow moving the selected item up or down the task list.
+- [x] Add a button with id="remover-selecionado" that, when clicked, removes the selected item.
 
-## Aprendizados
+## Learnings
 
-Esse foi um projeto muito divertido, e é certamente uma aplicação na qual eu pretendo trabalhar bastante, incrementando com diversas outras funcionalidades. A parte mais desafiadora foi adicionar as informações ao Local Storage, pois isso é algo com o qual não estou muito familiarizada ainda. Mas fiquei bastante satisfeita com o resultado final, esse é o meu projeto favorito até agora.
+This was a super fun project, and it's definitely an application I plan to work on a lot, adding various other functionalities. The most challenging part was adding information to Local Storage because it's something I'm not very familiar with yet. But I'm quite pleased with the final result; this is my favorite project so far.
 
 >Written with [StackEdit](https://stackedit.io/).
